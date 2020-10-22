@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href=https://www.facebook.com/>
+    </head>
+    <body>
+        Express:<input type="text" id="txt">
+        <input type="button" value="calculate" onclick=calc()>
+
+    </body>
+    <script>
+        function calc(){
+            try{ 
+                var data=document.querySelector("#txt").value;
+            var result=eval(data);
+            console.log(result)
+            }
+        catch(err){
+            alert("couldnt find sum");
+        }}
+    </script>
+</html>

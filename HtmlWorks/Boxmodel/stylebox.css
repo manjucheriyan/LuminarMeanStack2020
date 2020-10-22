@@ -1,0 +1,21 @@
+#top{
+    color: red;
+    border-style: double;
+    border-color: indianred;
+    margin-left: 150px;
+    padding-left: 150px;
+    
+}
+#bottom{
+    color: royalblue;
+    border-style: double;
+    border-color: indianred;
+    margin-left: 150px;
+   margin-top: 500px;
+   padding-left: 150px;
+    
+}
+h2{
+    font-family: 'Anton', sans-serif;
+
+}
